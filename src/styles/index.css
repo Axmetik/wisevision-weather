@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 16px;
+  height: 100vh;
+  color: #222;
+  background-color: #eabfb9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  padding: 3em;
+  border: 2px solid #222;
+  outline: 2px solid #222;
+  outline-offset: 1.2rem;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 3em;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+input {
+  font-family: inherit;
+  color: inherit;
+  font-size: 1.5em;
+  background-color: #f0d2ce;
+  padding: 1rem;
+  border: none;
+  width: 15em;
+}
+
+input:focus {
+  outline: 2px solid #222;
+}
+
+.weather {
+  list-style: none;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2em;
+}
+
+.day {
+  background-color: #f0d2ce;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  cursor: pointer;
+}
+
+.day span {
+  font-size: 5em;
+}
