@@ -8,7 +8,7 @@ $ git clone https://github.com/Axmetik/wisevision-github.git
 ## To setup
 ```
 $ npm install
-$ npm run dev
+$ npm start
 ```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
