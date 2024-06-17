@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# Wisevision tech task#2
+
+## To get
+```
+$ git clone https://github.com/Axmetik/wisevision-github.git
+```
+
+## To setup
+```
+$ npm install
+$ npm run dev
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
