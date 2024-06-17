@@ -2,7 +2,7 @@
 
 ## To get
 ```
-$ git clone https://github.com/Axmetik/wisevision-github.git
+$ git clone https://github.com/Axmetik/wisevision-weather.git
 ```
 
 ## To setup
